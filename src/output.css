@@ -305,6 +305,9 @@
   .text-blue-600 {
     color: var(--color-blue-600);
   }
+  .italic {
+    font-style: italic;
+  }
   .underline {
     text-decoration-line: underline;
   }
