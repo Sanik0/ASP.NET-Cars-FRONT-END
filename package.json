@@ -1,0 +1,24 @@
+{
+  "name": "asp.net-cars-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanik0/ASP.NET-Cars-FRONT-END.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanik0/ASP.NET-Cars-FRONT-END/issues"
+  },
+  "homepage": "https://github.com/Sanik0/ASP.NET-Cars-FRONT-END#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}
