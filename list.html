@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tailwind CLI Setup</title>
-  <link href="src/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CLI Setup</title>
+    <link href="src/output.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="w-full bg-[#2CD7BC] py-[15px] px-[30px] flex justify-between items-center">
         <h1 class="text-[#ffffff] italic text-[30px] font-normal">Car Enthusiasts Website</h1>
@@ -15,56 +17,47 @@
         </nav>
     </header>
     <section class="w-full flex justify-center items-center gap-[50px] h-[80vh]">
-        <form class="flex flex-col gap-[16px] p-[40px] rounded-[4px] border-[#E4E4E7] border-solid border-[1px] w-full max-w-[487px]" action="">
-            <h1 class="text-[20px] font-bold text-[#A1A1AA]">Add A Car</h1>
-            <div class="flex flex-col gap-[5px]">
-                <label for="" class="text-[14px] font-semibold">Car ID</label>
-                <input type="text" class="text-[14px] font-normal py-[5px] border-b-[1px] border-solid border-[#A1A1AA]
-                focus:outline-none" placeholder="ID" >
-            </div>
-            <div class="flex flex-col gap-[5px]">
-                <label for="" class="text-[14px] font-semibold">Car Brand</label>
-                <input type="text" class="text-[14px] font-normal py-[5px] border-b-[1px] border-solid border-[#A1A1AA]
-                focus:outline-none" placeholder="Brand" >
-            </div>
-            <div class="flex flex-col gap-[5px]">
-                <label for="" class="text-[14px] font-semibold">Car Model</label>
-                <input type="text" class="text-[14px] font-normal py-[5px] border-b-[1px] border-solid border-[#A1A1AA]
-                focus:outline-none" placeholder="Model" >
-            </div>
-            <div class="flex flex-col gap-[5px]">
-                <label for="" class="text-[14px] font-semibold">Car Details</label>
-                <textarea name=""  class="text-[14px] font-normal py-[5px] border-b-[1px] border-solid border-[#A1A1AA]
-                focus:outline-none"id="" placeholder="Details"></textarea>
-            </div>
-            <div class="flex gap-[16px] items-center">
-                <div class="py-[10px] px-[16px] rounded-[4px] bg-[#18181B] w-fit text-[#ffffff] font-semibold">Save</div>
-                <div class="py-[10px] px-[16px] rounded-[4px] bg-[#18181B] w-fit text-[#ffffff] font-semibold">Cancel</div>
-            </div>
-        </form>
-        <form class="flex flex-col gap-[16px] p-[40px] rounded-[4px] w-full max-w-[487px]" action="">
-            <h1 class="text-[20px] font-bold text-[#A1A1AA]">Car Details</h1>
-            <div class="flex flex-col gap-[5px]">
-                <label for="" class="text-[14px] font-semibold">Car ID</label>
-                <input type="text" class="text-[14px] font-normal py-[5px] border-b-[1px] border-solid border-[#A1A1AA]
-                focus:outline-none" placeholder="ID" >
-            </div>
-            <div class="flex flex-col gap-[5px]">
-                <label for="" class="text-[14px] font-semibold">Car Brand</label>
-                <input type="text" class="text-[14px] font-normal py-[5px] border-b-[1px] border-solid border-[#A1A1AA]
-                focus:outline-none" placeholder="Brand" >
-            </div>
-            <div class="flex flex-col gap-[5px]">
-                <label for="" class="text-[14px] font-semibold">Car Model</label>
-                <input type="text" class="text-[14px] font-normal py-[5px] border-b-[1px] border-solid border-[#A1A1AA]
-                focus:outline-none" placeholder="Model" >
-            </div>
-            <div class="flex flex-col gap-[5px]">
-                <label for="" class="text-[14px] font-semibold">Car Details</label>
-                <textarea name=""  class="text-[14px] font-normal py-[5px] border-b-[1px] border-solid border-[#A1A1AA]
-                focus:outline-none"id="" placeholder="Details"></textarea>
-            </div>
-        </form>
+        <div class="w-full max-w-[1153px] flex flex-col gap-[15px]">
+            <h1 class="text-[35px] bg-red font-bold text-[#A1A1AA]">List Of Cars</h1>
+            <table class="w-full border-[1px] border-solid border-[#E4E4E7] border-collapse p-[40px] bg-[#F4F4F5]">
+                <thead>
+                    <tr>
+                        <th class="text-left p-[12px]">Car ID</th>
+                        <th class="text-left p-[12px]">Car Brand</th>
+                        <th class="text-left p-[12px]">Car Description</th>
+                        <th class="text-left p-[12px]">Car Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="odd:bg-white even:bg-[#F4F4F5]">
+                        <td class="text-left p-[12px]">1</td>
+                        <td class="text-left p-[12px]">Toyota</td>
+                        <td class="text-left p-[12px]">A cheap and realiable car made to last.</td>
+                        <td class="text-left p-[12px]">9999</td>
+                    </tr>
+                    <tr class="odd:bg-white even:bg-[#F4F4F5]">
+                        <td class="text-left p-[12px]">1</td>
+                        <td class="text-left p-[12px]">Toyota</td>
+                        <td class="text-left p-[12px]">A cheap and realiable car made to last.</td>
+                        <td class="text-left p-[12px]">9999</td>
+                    </tr>
+                    <tr class="odd:bg-white even:bg-[#F4F4F5]">
+                        <td class="text-left p-[12px]">1</td>
+                        <td class="text-left p-[12px]">Toyota</td>
+                        <td class="text-left p-[12px]">A cheap and realiable car made to last.</td>
+                        <td class="text-left p-[12px]">9999</td>
+                    </tr>
+                    <tr class="odd:bg-white even:bg-[#F4F4F5]">
+                        <td class="text-left p-[12px]">1</td>
+                        <td class="text-left p-[12px]">Toyota</td>
+                        <td class="text-left p-[12px]">A cheap and realiable car made to last.</td>
+                        <td class="text-left p-[12px]">9999</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
     </section>
 </body>
+
 </html>
